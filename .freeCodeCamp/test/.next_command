@@ -50,3 +50,8 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello PostgresSQL
 echo hello PostgreSQL
+psql --kieuanh=freecodecamp -relational_db=postgres
+psql --hepl
+psql -- help
+psql kieuanh=freecodecamp relational_databse=postgres
+psql --username=freecodecamp --dbname=postgres
