@@ -150,3 +150,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git clone https://github.com/kieuanh710/learn-relational-databases-by-building-a-mario-database.git
 fit remote origin https://github.com/kieuanh710/learn-relational-databases-by-building-a-mario-database.git
+git checkout learn-relational-databases-by-building-a-mario-database
